@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="esp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no">
+    <title>Alura Challenge: Encriptador  </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+   
+   <main>
+     <header>
+       <img src="img/logo.png" alt="logo" class="logo">
+    </header>
+       
+       <div><textarea name="textarea" rows="20" cols="50" class="textarea" id="textarea" placeholder="Ingrese el texto aquí;"></textarea>
+        <p class="aviso"><img src="img/exclamtion.png" alt="exclamation"> Solo letras minúsculas y sin acentos </p>
+        <div class="frame">
+            <button type="submit" class="encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="submit" class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+       <div><canvas id="rectangulo"></canvas>
+            <img src="img/Muneco.png" alt="" class="muneco" name="imagencodificado">
+            <textarea name="textarea2" rows="20" cols="50" class="textarea2" id="codificado">Ningún mensaje fue encontrado</textarea>
+            <p class="parrafo-muneco" id="ocultar">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button type="submit" class="copiar" onclick="copiar()" value="copiar">Copiar</button>
+        </div>
+   </main>
+   <footer>
+     <p>Diseño de web por: SEBASTIAN LUPI</p>
+  </footer>
+    <script src="javascript.js"></script>
+
+  </body>
+</html>
